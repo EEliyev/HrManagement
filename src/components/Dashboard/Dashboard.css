@@ -1,0 +1,199 @@
+:root{
+    --dashboard-width:100%;
+}
+.dashboard{
+
+}
+.dashboard-container{
+    width: var(--dashboard-width);
+}
+.dashboard-head{
+    width: var(--dashboard-width);
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard-main{
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 7px;
+    background-color: #fff;
+}
+.dashboard-head-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+    padding: 1.2rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 7px;
+}
+.dashboard-head-item:last-child{
+    margin: 0;
+}
+.dashboard-head-item-left{
+    height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.dashboard-head-item-left p{
+    opacity: 0.5;
+    font-size: 0.8rem;
+}
+.dashboard-head-item-left b{
+    font-size: 1.3rem;
+}
+.dashboard-head-item-left-increase-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #38ca8818;
+}
+.dashboard-head-item-left-increase-reject{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #fe56301a;
+}
+.dashboard-head-item-left-increase-shot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #ffa60018;
+}
+.grow-total path{
+    fill: #38CA89;
+}
+.grow-shot path{
+    fill: #FFA600;
+}
+.grow-reject path{
+    fill: #FE5630;
+}
+.dashboard-head-item-right{
+    width: 60px;
+    height: 60px;
+}
+.dashboard-footer{
+    width: var(--dashboard-width);
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard-footer-left{
+    width: 55%;
+    padding: 0.6rem 1.5rem;
+    margin-top: 1rem;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-right: 1rem;
+}
+.dashboard-footer-right{
+    width: 45%;
+    padding: 0.6rem 1.5rem;
+    margin-top: 1rem;
+    background-color: #fff;
+    border-radius: 7px;
+
+}
+.dashboard-footer-left-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.dashboard-footer-right-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.dashboard-footer-left-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.dashboard-footer-left-body-icon{
+    margin-right: 0.6rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.dashboard-footer-left-body-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 400px;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.479);
+}
+.dashboard-footer-right-body-title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    justify-content: start;
+    width: 180px;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.479);
+}
+.dashboard-footer-left-body-status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    width: 100px;
+    height: 40px;
+    background-color: #D7E5FF;
+    color: #377DFF;
+}
+.dashboard-footer-right-body-status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    width: 30px;
+    height: 30px;
+    background-color: #F5F6FA;
+    color: #377DFF;
+}
+.MuiInputBase-root{
+    height: 2.5rem;
+    padding: 0 !important;
+    border-radius: 15px !important;
+}
+
+
+
+
+
+
+
+
+
+.CircularProgressbar-text{
+fill: black !important;
+font-weight: 700 !important;
+}
+.totalbar .CircularProgressbar-path{
+    stroke: #38CA89 !important;
+}
+.shotbar .CircularProgressbar-path{
+    stroke: #FFA600 !important;
+}
+.rejectbar .CircularProgressbar-path{
+    stroke: #FE5630 !important;
+}
+.apexcharts-canvas svg g g g path{
+  border-radius: 10px !important;
+}

@@ -1,0 +1,195 @@
+/* Job filter */
+.job-filter{
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+}
+.job-filter-date{
+    font-size: 0.8rem;
+    font-weight: 500;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #969696;
+
+}
+.jobfilter-date-icon{
+    width: 16px;
+    height: 16px;
+}
+.jobfilter-date-icon .react-datepicker{
+    margin-left: -100px;
+}
+.job-filter-date-title{
+    margin-inline: 0.5rem;
+    font-weight: 700;
+    color: black;
+}
+.job-filter-status{
+    color: #969696;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.job-filter-status-select{
+    margin-left: 0.5rem;
+    font-weight: 700;
+    color: black;
+}
+.job-filter-status-select .MuiInputBase-root{
+    font-weight: 700;
+    font-size: 0.8rem;
+    font-family: 'Monda', sans-serif;
+}
+.job-filter-status-select .MuiOutlinedInput-notchedOutline{
+    border: none !important;
+}
+
+
+/* Job Container */
+
+.job-container-head{
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.082);
+}
+.job-container-head-item{
+    position: relative;
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.555);
+    cursor: pointer;
+}
+.job-container-head-item:first-child{
+    padding-left: 0;
+}
+.job-container-head-item-count{
+    padding-inline: 0.2rem;
+    margin-left: 0.5rem;
+    background-color: #E2F2EF;
+    color: #39CB8A;
+    border-radius: 5px;
+}
+.job-container-head-item-active{
+    opacity: 1;
+    color: black;
+}
+.job-container-head-item-active::after{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 3px solid #39CB8A;
+    width: 100%;
+    animation: head-item-active-animate 0.5s;
+}
+@keyframes head-item-active-animate{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+.job-container-body{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-inline: -1rem;
+}
+.job-container-body-card{
+    margin: 0.8rem;
+    width: 244px;
+    height: 257px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
+}
+.job-container-body-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.2s;
+}
+.job-container-body-card:last-child{
+    border: 2px dashed rgba(0, 0, 0, 0.315);
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.job-container-body-card:last-child div{
+    color: #39CB8A;
+}
+.job-container-body-card-head{
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.job-container-body-card-head-logo{
+    box-sizing: content-box;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 0.5px solid rgba(0, 0, 0, 0.034);
+    background-color: #fff;
+    overflow: hidden;
+}
+.job-container-body-card-head-date{
+    opacity: 0.7;
+    font-size: 15px;
+}
+.job-container-body-card-body-pos{
+    opacity: 0.3;
+    font-size: 0.82rem;
+    font-weight: 700;
+}
+.job-container-body-card-body-name{
+    font-weight: 700;
+    line-height: 1.2rem;
+}
+.job-container-body-card-body-place{
+    font-size: 0.88rem;
+}
+.job-container-body-card-body-text{
+    line-height: 1.2rem;
+    margin-top: 0.4rem;
+    opacity: 0.5;
+    font-size: 14px;
+    height: 61px;
+    max-width: 212px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.job-container-body-card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.job-container-body-card-footer-left{
+    display: flex;
+    margin-left: 0.7rem;
+    margin-top: 0.7rem;
+}
+.job-container-body-card-footer-left-item{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fff;
+    box-sizing: content-box;
+    border: 0.4px solid white;
+    overflow: hidden;
+    margin-left: -0.8rem;
+    width: 30px;
+    height: 30px;
+}
+.job-container-body-card-footer-right{
+    font-size: 0.8rem;
+    opacity: 0.4;
+}

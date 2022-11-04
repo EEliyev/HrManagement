@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root{
+  --body-color: #F5F6FA;
+  --sidebar-bg-color:white;
+  --blue:#377DFF;
 }
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: 0;
+  font-family: 'Monda', sans-serif;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background-color: var(--body-color);
+}
+.right{
+  
+  margin-left: 248px;
+}
+.right-inner{
+  margin-inline: 2.06rem;
+  margin-bottom: 2.06rem;
+}
+input::placeholder{
+  color: #C4C4C4;
+}
+input:focus{
+  outline: none;
+}
+img{
+  width: 100%;
+}
+.container-title{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-block:0.9rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Track */
+::-webkit-scrollbar-track {
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #377DFF;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #377dffa2;
 }
