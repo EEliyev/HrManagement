@@ -3,7 +3,7 @@
     justify-content: end;
     align-items: center;
     height: 77px;
-    background-color: white;
+    background-color: var(--body-color-light);
 }
 .nav-search{
     display: flex;
@@ -16,7 +16,7 @@
     padding: 0 1.3rem;
     height: 100%;
     width: 287px;
-    background-color: #FAFBFD;
+    background-color: var(--input-bg-color);
     border-radius: 8px 0 0 8px;
 }
 .nav-search button{
@@ -39,6 +39,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
 }
 .nav-user-item[id="circle"]{
     width: 38px;

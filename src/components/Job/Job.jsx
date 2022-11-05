@@ -272,7 +272,7 @@ function Job() {
                     </div>
                     <div
                       className="job-container-body-card-footer-left-item"
-                      style={{ backgroundColor: "#F0F0F0" }}
+                      
                     >
                       +
                     </div>

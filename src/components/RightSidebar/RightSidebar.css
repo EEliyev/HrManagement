@@ -13,10 +13,29 @@
     right: 0;
     width: 300px;
     height: 100vh;
-    background: white;
+    background: var(--body-color-light);
+    color: var(--link-color);
     transition: right 0.5s  ease-in-out;
     z-index: 15;
     overflow-y: scroll;
+}
+.theme{
+    margin-left: 0.5rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.theme svg{
+    fill: var(--theme-color);
+}
+.theme:hover{
+    background-color: var(--theme-color);
+}
+.theme:hover svg{
+    fill: var(--body-color-light);
 }
 .right-sidebar-hide{
     width: 0;
@@ -28,7 +47,8 @@
     right: -300px;
     width: 300px;
     height: 100vh;
-    background: white;
+    background:  var(--body-color-light);
+    color: var(--link-color);
     transition: right 0.5s ease-in-out;
     z-index: 15;
 }
@@ -50,6 +70,8 @@
 .right-sidebar-head-icon img{
     width: 140px;
     height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 .right-sidebar-head-name{
     display: flex;
@@ -78,12 +100,14 @@
     /* width: 100%; */
     padding: 0.7rem;
     border-radius: 12px;
-    background-color: #FAFBFD;
+    background-color: var(--input-bg-color);
 }
 .right-sidebar-item-logo{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
 }
 .right-sidebar-item-logo img{
     width: 40px;

@@ -2,19 +2,19 @@
     width: 100px;
     padding: 0.4rem;
     margin-top: 1rem;
-    background-color: #fff;
+    background-color: var(--body-color-light);
     font-size: 0.9rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-radius: 5px;
-    color: rgba(0, 0, 0, 0.301);
+    color: grey;
     border: 2px solid rgba(0, 0, 0, 0.185);
 }
 .candidates-body-head{
     display: flex;
     font-size: 1.2rem;
-    color: rgba(0, 0, 0, 0.637);
+    color: var(--black-grey);
 }
 .candidates-body-head-count{
     display: flex;
@@ -23,7 +23,7 @@
     font-size: 0.9rem;
     font-weight: 700;
     margin-left: 0.5rem;
-    background-color: #D6F5E6;
+    background-color: var(--candidates-count);
     padding: 0 0.2rem;
     border-radius: 5px;
 }
@@ -61,16 +61,23 @@
 .candidates-table .MuiDataGrid-root{
     border: none !important;
 }
+.candidates-table .MuiDataGrid-iconButtonContainer svg{
+    fill: var(--link-color);
+}
+.candidates-table .MuiDataGrid-sortIcon path{
+    fill: var(--link-color) !important;
+}
 .candidates-table .MuiDataGrid-main{
-    background-color: #F5F6FA;
+    background-color: var(--body-color);
     border: none !important;
+    color: var(--link-color);
 }
 .candidates-table .MuiDataGrid-columnHeaders{
-    background-color: #fff;
+    background-color: var(--body-color-light);
     border-radius: 10px;
 }
 .candidates-table .MuiDataGrid-virtualScroller{
-    background-color: #fff;
+    background-color: var(--body-color-light);
     border-radius: 10px;
     margin-top: 5rem !important;
     padding-bottom: 2rem !important;
@@ -83,10 +90,18 @@
 }
 .candidates-table .MuiDataGrid-cell{
     font-weight: 700;
+
+}
+.candidates-table .MuiDataGrid-columnHeaders {
+    border: none !important;
+}
+.candidates-table .MuiDataGrid-row{
+    border: 1px solid var(--body-color) !important;
 }
 .candidates-table .MuiDataGrid-row:hover{
     background-color: #377DFF !important;
     color: white !important;
+
 }
 .candidates-table .MuiCheckbox-root svg[data-testid="CheckBoxOutlineBlankIcon"]{
     fill: rgba(0, 0, 0, 0.082);

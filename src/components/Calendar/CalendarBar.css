@@ -4,8 +4,9 @@
 .calendarbar{
     width: var(--calendar-bar-width);
     padding: 1.5rem;
-    background-color: #fff;
+    background-color: var(--body-color-light);
     border-radius: 10px;
+    color: var(--link-color);
 }
 .calendarbar-head{
     display: flex;

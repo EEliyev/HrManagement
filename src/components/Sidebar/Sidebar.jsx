@@ -40,7 +40,7 @@ function Sidebar() {
     <div className="sidebar">
         <div className="sidebar-logo">
         <Logo/>
-          <h3>Human R</h3>
+          <h3 style={{marginLeft:"0.5rem"}}>Human R</h3>
         </div>
       <ul className="sidebar-bottom">
         {data?.map((x, i) => {

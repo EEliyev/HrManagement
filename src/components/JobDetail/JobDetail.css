@@ -6,14 +6,14 @@
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: var(--body-color-light);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .jobdetail-left svg g {
-    fill: rgba(0, 0, 0, 0.466);
+    fill: var(--link-color);
 }
 
 .jobdetail-med {
@@ -41,10 +41,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #CFCFCF;
+    border: 1px solid var(--body-color);
     padding-inline: 1rem;
     height: 45px;
-    background-color: #EFEFEF;
+    background-color: var(--body-color-light);
 }
 
 .jobdetail-right-tablebtn {
@@ -55,7 +55,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #CFCFCF;
+    border: 1px solid var(--body-color);
     padding-inline: 1rem;
     height: 45px;
     background-color: #377DFF;
@@ -69,7 +69,7 @@
     margin-inline: -1rem;
 }
 .jobdetail-container-body-table{
-    background-color: #fff;
+    background-color: var(--body-color-light);
     padding: 0.7rem;
     border-radius: 10px;
     margin: 1rem;
@@ -95,8 +95,8 @@
     padding-top: 0.4rem;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-
-    background-color: #FAFBFD;
+color: var(--link-color);
+    background-color: var(--body-color);
 }
 .jobdetail-container-body-table-head-name{
 
@@ -106,12 +106,14 @@
     padding: 0.15rem;
     border-radius: 5px;
     background-color: #EFEFEF;
+    color: black;
 }
 .jobdetail-container-body-table-item{
     margin-block: 1rem;
-    background-color:  #FAFBFD;
+    background-color:  var(--body-color);
     padding: 0.5rem;
     border-radius: 10px;
+    color: var(--link-color);
 }
 .jobdetail-container-body-table-item-head{
     display: flex;

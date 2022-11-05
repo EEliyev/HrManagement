@@ -17,6 +17,10 @@
 .jobfilter-date-icon{
     width: 16px;
     height: 16px;
+
+}
+.jobfilter-date-icon svg{
+    fill:var(--black-grey) !important;
 }
 .jobfilter-date-icon .react-datepicker{
     margin-left: -100px;
@@ -24,7 +28,7 @@
 .job-filter-date-title{
     margin-inline: 0.5rem;
     font-weight: 700;
-    color: black;
+    color:var(--black-grey);
 }
 .job-filter-status{
     color: #969696;
@@ -54,6 +58,7 @@
 .job-container-head{
     display: flex;
     border-bottom: 1px solid rgba(0, 0, 0, 0.082);
+    color: var(--black-grey);
 }
 .job-container-head-item{
     position: relative;
@@ -61,7 +66,7 @@
     padding: 0.5rem 1rem;
     font-weight: 700;
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.555);
+    color: var(--black-grey);
     cursor: pointer;
 }
 .job-container-head-item:first-child{
@@ -70,13 +75,13 @@
 .job-container-head-item-count{
     padding-inline: 0.2rem;
     margin-left: 0.5rem;
-    background-color: #E2F2EF;
+    background-color: #39cb8946;
     color: #39CB8A;
     border-radius: 5px;
 }
 .job-container-head-item-active{
     opacity: 1;
-    color: black;
+    color: var(--link-color);
 }
 .job-container-head-item-active::after{
     content: " ";
@@ -105,7 +110,8 @@
     margin: 0.8rem;
     width: 244px;
     height: 257px;
-    background-color: #fff;
+    background-color: var(--body-color-light);
+    color: var(--link-color);
     border-radius: 10px;
     padding: 1rem;
     cursor: pointer;
@@ -115,12 +121,18 @@
     transition: 0.2s;
 }
 .job-container-body-card:last-child{
-    border: 2px dashed rgba(0, 0, 0, 0.315);
+    border: 2px dashed var(--link-color);
+    opacity: 0.5;
     background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
+}
+.job-container-body-card:last-child:hover{
+    opacity: 1;
+    transition: 0.5s;
 }
 .job-container-body-card:last-child div{
     color: #39CB8A;
@@ -183,11 +195,14 @@
     border-radius: 50%;
     background-color: #fff;
     box-sizing: content-box;
-    border: 0.4px solid white;
+    border: 0.4px solid var(--body-color-light);
     overflow: hidden;
     margin-left: -0.8rem;
     width: 30px;
     height: 30px;
+}
+.job-container-body-card-footer-left-item:last-child{
+    background-color: var(--input-bg-color);
 }
 .job-container-body-card-footer-right{
     font-size: 0.8rem;

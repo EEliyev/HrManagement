@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: var(--body-color);
 }
 .calendar-right-item{
     display: flex;
@@ -22,9 +23,11 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    overflow: hidden;
+    color: var(--link-color);
     height: 210px;
     width: 250px;
-    background-color: #fff;
+    background-color: var(--body-color-light);
 }
 .calendar-right-item:last-child{
     height: 105px;
@@ -52,7 +55,7 @@
     border-radius: 7px;
     width: 50px;
     height: 60px;
-    background-color: #FAFBFD;
+    background-color: var(--input-bg-color);
     margin-right: 0.5rem;
 }
 .calendar-right-item-body-text-head{

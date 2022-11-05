@@ -13,7 +13,7 @@
     border-radius: 6px 0 0 10px;
 width: 64%;
 height: var(--message-h);
-background-color: #fff;
+background-color: var(--body-color-light);
 transition: width 0.5s;
 }
 .message-left-wide{
@@ -21,7 +21,7 @@ transition: width 0.5s;
     border-radius: 10px 0 0 10px;
 width: 100%;
 height: var(--message-h);
-background-color: #fff;
+background-color:var(--body-color-light);
 transition:width 0.5s;
 }
 .message-right{
@@ -29,7 +29,7 @@ transition:width 0.5s;
     margin-left: 1.7rem;
 width: 33%;
 height: var(--message-h);
-background-color: #fff;
+background-color: var(--body-color-light);
 transition:width 0.5s;
 }
 .message-right-none{
@@ -39,7 +39,7 @@ transition:width 0.5s;
 .message-left-item{
     width: 47%;
     height: 100%;
-    border-right: 1px solid #E8E8E8;
+    border-right: 1px solid var(--body-color);
 }
 .message-left-body{
     height: 100%;
@@ -57,18 +57,20 @@ transition:width 0.5s;
    border-radius: 5px;
    font-weight: 700;
    padding-inline: 0.5rem;
-   background-color: #fff;
-   color: rgba(0, 0, 0, 0.452);
+   background-color: var(--body-color-light);
+   color: var(--link-color);
 }
 .message-left-item-btn-active{
     height: 2rem;
     border-radius: 5px;
     font-weight: 700;
     padding-inline: 0.5rem;
+    background-color: var(--input-bg-color);
+    color: var(--link-color);
  }
 .message-left-item-search{
     height: 65px;
-    border-block: 1px solid #E8E8E8;
+    border-block: 1px solid var(--body-color);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -77,7 +79,7 @@ transition:width 0.5s;
 .message-left-item-search input{
     border-radius: 5px;
     padding: 0.3rem 2rem;
-    background-color: #FAFBFD;
+    background-color: var(--input-bg-color);
 }
 .message-left-item-search div{
     display: flex;
@@ -85,8 +87,8 @@ transition:width 0.5s;
     align-items: center;
     width: 29px;
     height: 29px;
-    background: #FAFBFD;
-    border: 1px solid #E8E8E8;
+    background: var(--input-bg-color);
+    border: 1px solid var(--grey);
     border-radius: 5px;
 }
 .message-left-item-card{
@@ -94,7 +96,7 @@ transition:width 0.5s;
     align-items: center;
     justify-content: space-around;
     height: 70px;
-    border-block: 1px solid #E8E8E8;
+    border-block: 1px solid var(--body-color);
 }
 .message-left-item-card:first-child{
     border-top: none;
@@ -109,10 +111,13 @@ transition:width 0.5s;
 .message-left-item-container{
     height: calc(var(--message-h) - 135px);
     overflow-y: scroll;
-    border-top: 1px solid #E8E8E8;
+    border-top: 1px solid var(--body-color);
 }
 .message-left-item-card-title{
-
+    color: var(--link-color);
+}
+.message-left-item-card-date{
+    color: var(--link-color);
 }
 .msactive{
 background-color: #377DFF;
@@ -138,7 +143,7 @@ opacity: 0.5;
     display: flex;
     justify-content: start;
     align-items: center;
-    border-bottom: 1px solid #E8E8E8;
+    border-bottom: 1px solid var(--body-color);
 }
 .message-left-body-logo{
     width: 45px;
@@ -166,11 +171,12 @@ opacity: 0.5;
     width: 30px;
     height: 30px;
     border-radius: 10px;
-    border: 1px solid #E8E8E8;
-    background-color: #fff;
+    color: var(--link-color);
+    border: 1px solid var(--grey);
+    background-color: var(--body-color-light);
 }
 .message-left-body-title{
-
+color: var(--link-color);
 }
 .message-left-body-main{
 
@@ -250,10 +256,12 @@ flex-direction: column;
     flex-direction: column;
     padding: 0.9rem;
     overflow-y: scroll;
+    color: var(--link-color);
 }
 .message-right-inner::-webkit-scrollbar{
     display: none;
 }
+
 .MuiSlider-thumb{
     width: 3px !important;
     border-radius: 0 !important;
@@ -261,12 +269,14 @@ flex-direction: column;
 .message-right-description{
     font-size: 1.2rem;
     font-weight: 700;
+    color: var(--link-color);
 }
 .message-right-link{
     border-radius: 5px;
     display: flex;
     justify-content: start;
-    background-color: #F5F6FA;
+    background-color: var(--input-bg-color);
     padding: 0.4rem;
     align-items: center;
+    color: var(--link-color);
 }

@@ -1,9 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 :root{
-  --body-color: #F5F6FA;
-  --sidebar-bg-color:white;
+  --body-color: #F5F6FA; 
+
+  --body-color-light:white;
+
+  --theme-color:#26273B;
+
+  --body-border:#E8E8E8;
+
+  --link-color:black;
+
+  --grey: rgba(0, 0, 0, 0.425);
+
+  --input-bg-color:#FAFBFD;
+
   --blue:#377DFF;
+
+  --activity-status:#D7E5FF;
+
+  --black-grey:black;
+
+  --candidates-count:#D6F5E6;
+
 }
+/* :root{
+  --body-color:#1B1C31;
+
+  --body-color-light:#26273B;
+
+  --theme-color:white;
+
+  --body-border:#1B1C31;
+
+  --link-color:white;
+
+  --grey: rgba(255, 255, 255, 0.425);
+
+  --input-bg-color:#2E2F44;
+
+  --blue:#377DFF;
+
+  --activity-status:#263560;
+
+  --black-grey:grey;
+
+  --candidates-count:#414755;
+} */
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -45,6 +88,7 @@ img{
   margin-block:0.9rem;
   font-size: 1.5rem;
   font-weight: 700;
+  color: var(--link-color);
 }
 ::-webkit-scrollbar {
   width: 5px;

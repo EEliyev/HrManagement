@@ -1,9 +1,9 @@
 .sidebar{
     width: 248px;
-    background-color: var(--sidebar-bg-color);
+    background-color: var(--body-color-light);
     height: 100vh;
     position: fixed;
-    border-right: 1px solid #E8E8E8;
+    border-right: 1px solid var(--body-border);
 }
 .sidebar-logo{
     display: flex;
@@ -12,6 +12,7 @@
     text-align: center;
     height: 78px;
     font-size: 1rem;
+    color: var(--link-color);
 }
 .sidebar-bottom{
     height: 75%;
@@ -29,12 +30,13 @@
     font-size: 1rem;
     margin-block: 1rem;
     padding-inline: 1.2rem;
+    color: var(--link-color);
 }
 .sidebar-link{
     display: flex;
     align-items: center;
     font-size: 0.8rem;
-    color: rgba(0, 0, 0, 0.425);
+    color: var(--grey);
     padding: 0.5rem 2.7rem;
     padding-inline: 1rem;
     border-radius: 10px;
