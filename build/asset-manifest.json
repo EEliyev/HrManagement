@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0cb4acd7.css",
+    "main.js": "/static/js/main.02f39c21.js",
+    "static/media/img1.png": "/static/media/img1.5d50011425d73b167d34.png",
+    "static/media/uservideo.png": "/static/media/uservideo.01c3aa117739a979372f.png",
+    "static/media/img2.png": "/static/media/img2.0bf60adbe8a197ef2455.png",
+    "static/media/userphoto.png": "/static/media/userphoto.88bb224ab532a0d6828c.png",
+    "static/media/user.png": "/static/media/user.85c82410c1e3b40b9fd6.png",
+    "static/media/user4.png": "/static/media/user4.9381dcaefbde9f41bb30.png",
+    "static/media/user2.png": "/static/media/user2.2a801a2596a487c43841.png",
+    "static/media/userlink.png": "/static/media/userlink.46d31b47081f686b6c10.png",
+    "static/media/logo.svg": "/static/media/logo.9477f180ce0f3cb9e90c5c8753e07293.svg",
+    "static/media/calendar.svg": "/static/media/calendar.bef501e56aa31d050af46d0a0622cbda.svg",
+    "static/media/report.svg": "/static/media/report.f9fc3ffbda1b74a25e14f64c0aadd9b3.svg",
+    "static/media/left.svg": "/static/media/left.73804bc57fcb10d01f63c493003608c7.svg",
+    "static/media/employee.svg": "/static/media/employee.da45d3872fcd8fa595ed623d564dad0d.svg",
+    "static/media/structure.svg": "/static/media/structure.2367cca478d28c47cec06a527a7fa72e.svg",
+    "static/media/cube.svg": "/static/media/cube.f63be215d701b6ac33bf97acd82143cb.svg",
+    "static/media/growth-arrow.svg": "/static/media/growth-arrow.e694c62a04f2cd5fa905b6a3b7c1f49f.svg",
+    "static/media/dashboard.svg": "/static/media/dashboard.552707eee3f6c8ffa4ef34d713bc7dcd.svg",
+    "static/media/setting.svg": "/static/media/setting.20d724ff7f155898f24fcc785fbaca59.svg",
+    "static/media/bell.svg": "/static/media/bell.64f69be0b38a1eb4dc6f69be974823da.svg",
+    "static/media/message.svg": "/static/media/message.95618171e33aeb68ca0d07bfde012ef8.svg",
+    "index.html": "/index.html",
+    "static/media/candidates.svg": "/static/media/candidates.fa59af57b9e9f3ba49316ee011a5b251.svg",
+    "static/media/job.svg": "/static/media/job.facd38ea9ba295545a7e6185b337583a.svg",
+    "static/media/search.svg": "/static/media/search.5265a4fdbdaf83d2e786d48f47fcf09b.svg",
+    "static/media/career.svg": "/static/media/career.1e9facfbaff0d8ed2ffa6c5aaadc6094.svg",
+    "static/media/question.svg": "/static/media/question.94cbbf24170f8dc90a6381e0d6074a07.svg",
+    "static/media/send.svg": "/static/media/send.f643f693e952e559f7bfe4647d295daa.svg",
+    "static/media/dots.svg": "/static/media/dots.cbf64edb451bf4a18eccd6a5ce1c8153.svg",
+    "static/media/video.svg": "/static/media/video.8c26c84257f5ac644de890abe7fb374e.svg",
+    "static/media/filter.svg": "/static/media/filter.1b3636e395277641c362f6bb7498fe53.svg",
+    "main.0cb4acd7.css.map": "/static/css/main.0cb4acd7.css.map",
+    "main.02f39c21.js.map": "/static/js/main.02f39c21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cb4acd7.css",
+    "static/js/main.02f39c21.js"
+  ]
+}
