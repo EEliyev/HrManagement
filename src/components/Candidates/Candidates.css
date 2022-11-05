@@ -1,0 +1,96 @@
+.candidates-filter{
+    width: 100px;
+    padding: 0.4rem;
+    margin-top: 1rem;
+    background-color: #fff;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.301);
+    border: 2px solid rgba(0, 0, 0, 0.185);
+}
+.candidates-body-head{
+    display: flex;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.637);
+}
+.candidates-body-head-count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-left: 0.5rem;
+    background-color: #D6F5E6;
+    padding: 0 0.2rem;
+    border-radius: 5px;
+}
+.candidates-table{
+    /* height: 500px;
+    width: 1000px; */
+    margin-top: 1rem;
+    background-color: #fff;
+}
+.candidates-table-rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    border-radius: 10px;
+    padding: 0.15rem 0.5rem;
+}
+.candidates-table-logo{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    background-color: #FFC966;
+}
+.candidates-table-logo-head{
+    display: flex;
+    align-items: center;
+}
+
+
+.candidates-table .MuiDataGrid-row:nth-child(even) .candidates-table-logo{
+    background-color: #9AE1F7;
+}
+.candidates-table .MuiDataGrid-root{
+    border: none !important;
+}
+.candidates-table .MuiDataGrid-main{
+    background-color: #F5F6FA;
+    border: none !important;
+}
+.candidates-table .MuiDataGrid-columnHeaders{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.candidates-table .MuiDataGrid-virtualScroller{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 5rem !important;
+    padding-bottom: 2rem !important;
+}
+.candidates-table .MuiDataGrid-virtualScroller::-webkit-scrollbar{
+    display: none !important;
+}
+.candidates-table .MuiDataGrid-columnSeparator {
+    visibility: hidden;
+}
+.candidates-table .MuiDataGrid-cell{
+    font-weight: 700;
+}
+.candidates-table .MuiDataGrid-row:hover{
+    background-color: #377DFF !important;
+    color: white !important;
+}
+.candidates-table .MuiCheckbox-root svg[data-testid="CheckBoxOutlineBlankIcon"]{
+    fill: rgba(0, 0, 0, 0.082);
+}
+.candidates-table .MuiCheckbox-root svg[data-testid="CheckBoxIcon"]{
+    
+}

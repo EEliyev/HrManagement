@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 import Calendar from './components/Calendar/Calendar';
+import Candidates from './components/Candidates/Candidates';
 import Dashboard from './components/Dashboard/Dashboard';
 import Job from './components/Job/Job';
 import JobDetail from './components/JobDetail/JobDetail';
@@ -30,6 +31,7 @@ console.log("app")
           <Route path='/calendar' element={<Calendar/>}/>
           <Route path='/jobs' element={<Job/>}/>
           <Route path='/jobdetails/:id/' element={<JobDetail/>}/>
+          <Route path='/candidates' element={<Candidates/>}/>
           <Route path="*" element={<NotFound/>} />
         </Routes>
       </div>

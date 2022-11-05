@@ -27,7 +27,7 @@ function Sidebar() {
     { title: "Menu", subtitle: [{icon:<DashboardSvg/>,link:"Dashboard"}, {icon:<MessageSvg/>,link:"Message"}, {icon:<CalendarSvg/>,link:"Calendar"}] },
     {
       title: "Recruitment",
-      subtitle: [{icon:<JobSvg/>,link:"Jobs"}, {icon:<CandidatesSvg/>,link:"Cadidates"}, {icon:<CubeSvg/>,link:"My Referals"}, {icon:<CareerSvg/>,link:"Career Site"}],
+      subtitle: [{icon:<JobSvg/>,link:"Jobs"}, {icon:<CandidatesSvg/>,link:"Candidates"}, {icon:<CubeSvg/>,link:"My Referals"}, {icon:<CareerSvg/>,link:"Career Site"}],
     },
     {
       title: "Organization",
