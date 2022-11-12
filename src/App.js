@@ -16,20 +16,17 @@ function App() {
   const white = "--body-color: #F5F6FA;--body-color-light:white;--theme-color:#26273B;--body-border:#E8E8E8;--link-color:black;--grey: rgba(0, 0, 0, 0.425);--input - bg - color: #FAFBFD;--blue:#377DFF;--activity - status: #D7E5FF;--black - grey: black;--candidates - count: #D6F5E6; ";
   const dark=" --body-color:#1B1C31;--body-color-light:#26273B;--theme-color:white;--body-border:#1B1C31;--link-color:white;--grey: rgba(255, 255, 255, 0.425);--input-bg-color:#2E2F44;--blue:#377DFF;--activity-status:#263560;--black-grey:grey;--candidates-count:#414755;"
   
-  if(localStorage.getItem("themeLs")==""){
-
+  if(localStorage.getItem("themeLs")==null){
     localStorage.setItem("themeLs","white");
 
   }
   else if(localStorage.getItem("themeLs")=="white"){
     window.document.body.style=white;
   }
-else{
-  window.document.body.style=dark;
-}
+  else{
+    window.document.body.style=dark;
+  }
 
-
-console.log("object");
 
   return (
     <div className="App" >

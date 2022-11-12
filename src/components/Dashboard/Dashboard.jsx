@@ -15,7 +15,6 @@ function Dashboard() {
 
   useEffect(() => {
     const interval = setTimeout(() => {
-      console.log("first");
       setTotalBar(5000);
       setShortBar(3600);
       setRejectBar(1400);
